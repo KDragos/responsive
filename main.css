@@ -1,0 +1,107 @@
+ /* This is the css is applied all the time. */
+
+/*body {
+	margin: 0;
+}
+
+.page {
+	background-color: yellow;
+	padding: 20px;
+}
+
+.page p { 
+	background-color: green;
+}
+
+
+
+/* We'd want to think about how we want it to look in the mobile view ports first. The desktop would come last, layering ontop of the mobile. */
+/* This is a media query. The css is responding to the technology used. (It's responding to the width of the screen.) Essentially it's always asking the question, "is the screen bigger than this?" And responding as necessary. */
+/*
+We really only want media objects in mobile mode. 
+
+
+*/
+/*** Imaginary Desktop Settings ***/
+/*@media screen and (min-width: 500px) {
+	
+	.page {
+		width: 960px;
+		margin: 0 auto;
+		border-radius: 20px;
+		border: 1px solid orange;
+	}
+
+	.comment {
+		overflow:hidden;
+		background-color: yellow;
+		padding: 5px;
+	}
+	.comment .image {
+		float:left;
+		background-color: green;
+		width: 100px;
+		height: 50px;
+	}
+	.comment .content {
+		background-color: blue;
+		height: 50px;
+	}
+}*/
+
+/* Can also do something like this: 
+@media screen and (min-width: 1000px) {
+	
+/*	.page {
+		width: 960px;
+		margin: 0 auto;
+		border-radius: 50px;
+		border: 5px solid purple;
+	}*/
+
+/*	.comment {
+		overflow:hidden;
+	}
+	.comment .image {
+		float:left;
+		width: 100px;
+	}
+	.comment .content {
+		margin-left: 105px;
+	}*/
+/*
+}
+*/
+/*
+@media screen and (min-width: 600px) {
+	div.componentB {
+	/* Mobile */
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 100px;
+}
+
+header {
+	background-color: green;
+}
+.primary-content {
+	background-color: yellow;
+	overflow:hidden;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.col {
+	background-color: green;
+	/*width: calc(33.33% - 20px);*/
+	float:left;
+	width: 33.33%;
+	/*padding: 10px;*/
+	/*margin: 10px;*/
+}
+
+/* Decide on looks. What stuff looks better. Layout or component categories. 

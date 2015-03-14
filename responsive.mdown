@@ -1,0 +1,44 @@
+## Responsive Notes
+
+@media screen and () {
+	
+}
+
+Sass will help solve many problems in repeating ourselves in CSS media queries. 
+We can (and should) write mixins to help make writing our CSS easier. 
+
+
+@mixin larger-than(){
+	@media screen and (min-width: $width) {
+		@content;
+	}
+}
+
+div.compA {
+	color: red;
+	@include larger-than(400px) {
+		color: blue;
+	}
+	@include larger-than(700px) {
+		padding: 10px;
+	}
+
+}
+
+## Twitter Bootstrap
+
+www.bootstrapcdn.com
+Has complete css and javascript.
+
+getbootstrap.com
+The documentation. 
+
+Needs jQuery and JS.
+Bootstrap is kinda like premade CSS styling. 
+
+Have to do !important on things to override Bootstrap sometimes. (This is an anti-pattern.)
+Bootstrap works on a grid system.  Graphic designers and designs can use the grid system. They are based on grids to help you line stuff up appropriately. They are either 12 or 16 columns. 
+
+Most grid systems don't do gutters. 
+
+To make a grid system. 
